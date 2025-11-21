@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "150733874880",
+    "project_id": "surefitness-2058c",
+    "storage_bucket": "surefitness-2058c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150733874880:android:33ba485d72d1b9f7856f25",
+        "android_client_info": {
+          "package_name": "com.example.surefitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpf6Sgc5pal5qZn7vwzhAdgUHK8KIf08I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

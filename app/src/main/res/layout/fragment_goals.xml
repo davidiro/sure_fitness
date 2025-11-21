@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/login_gradient"
+    android:layout_height="match_parent"
+    tools:context=".goals">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextText6"
+            android:layout_width="354dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/inout_layout"
+            android:ems="10"
+            android:hint="@string/enter_number_of_pushups"
+            android:inputType="text"
+            android:paddingHorizontal="20dp"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/divider3"
+            app:layout_constraintHorizontal_bias="0.438"
+            app:layout_constraintStart_toStartOf="@+id/imageView10"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+        <EditText
+            android:id="@+id/editTextText7"
+            android:layout_width="348dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/inout_layout"
+            android:ems="10"
+            android:hint="@string/enter_number_of_situps"
+            android:inputType="text"
+            android:paddingHorizontal="20dp"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/editTextText6"
+            app:layout_constraintHorizontal_bias="0.55"
+            app:layout_constraintStart_toStartOf="@+id/editTextText6"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText6" />
+
+        <EditText
+            android:id="@+id/editTextText9"
+            android:layout_width="354dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/inout_layout"
+            android:ems="10"
+            android:hint="@string/enter_number_of_squats"
+            android:inputType="text"
+            android:paddingHorizontal="20dp"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/editTextText7"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editTextText7"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText7" />
+
+        <EditText
+            android:id="@+id/editTextText10"
+            android:layout_width="355dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/inout_layout"
+            android:ems="10"
+            android:hint="@string/enter_km_ran"
+            android:inputType="text"
+            android:paddingHorizontal="20dp"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="@+id/editTextText9"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="@+id/editTextText9"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText9" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="242dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="64dp"
+            android:backgroundTint="@color/HunterGreen"
+            android:text="@string/save"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/editTextText10"
+            app:layout_constraintHorizontal_bias="0.453"
+            app:layout_constraintStart_toStartOf="@+id/editTextText10"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText10" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="409dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="24dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+            app:layout_constraintEnd_toEndOf="@+id/imageView10"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView10" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="411dp"
+            android:layout_height="101dp"
+            android:src="@drawable/about2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.41"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.207" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:padding="100dp"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.866"
+            app:layout_constraintStart_toEndOf="@+id/textView14">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/inout_layout"
+                tools:src="@tools:sample/avatars" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="244dp"
+            android:layout_height="68dp"
+            android:gravity="center"
+            android:text="@string/current_medal"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.183"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.394" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="238dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/notify_me"
+            android:textSize="20dp"
+            android:backgroundTint="@color/HunterGreen"
+            app:layout_constraintEnd_toEndOf="@+id/button5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/button5"
+            app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

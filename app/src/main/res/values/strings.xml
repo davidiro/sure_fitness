@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">SureFitness</string>
+    <string name="userName"> Enter username</string>
+    <string name="password">Enter password</string>
+    <string name="NewUser">New user?</string>
+    <string name="Continue">Conitnue</string>
+    <string name="login"><u> Login </u></string>
+    <string name="register"> <u> register</u></string>
+    <string name="profile">Profile</string>
+    <string name="goals">Goals</string>
+    <string name="save"> Save</string>
+    <string name="bmi">BMI</string>
+    <string name="workout">workout</string>
+    <string name= "highProteinBowl"> A balanced meal with scrambled eggs, avocado, whole-grain toast, and a side of Greek yogurt for sustained energy and muscle recovery.</string>
+    <string name ="Oatsandberries">A mix of oatmeal, protein powder, mixed berries, and almonds, providing slow-digesting carbs and protein for morning workouts.</string>
+    <string name = "Grilledchickensalad">Lean grilled chicken, quinoa, kale, and a light vinaigrette fuel muscle growth and keep you full.</string>
+    <string name ="salmonandsweetpotato">A meal rich in omega-3s and complex carbs, great for reducing inflammation and replenishing glycogen stores.</string>
+    <string name = "LeanTurkeyAndBrownRice">Ground turkey, brown rice, and steamed broccoli provide the perfect balance of protein, carbs, and fiber for post-workout recovery.</string>
+    <string name = "Proteinsmoothie"> A quick blend of banana, protein powder, almond butter, and flaxseeds to give you a fast-absorbing post-workout meal.</string>
+    <string name = "EggandAvacado">A filling wrap with eggs, avocado, spinach, and whole-grain tortillas, providing essential fats and proteins.</string>
+    <string name = "BeefandroastedPotato">A hearty meal with lean beef, roasted sweet potatoes, and asparagus, packed with iron and vitamins for energy.</string>
+    <string name = "Tofustirfry">A vegetarian muscle-building meal with tofu, mixed vegetables, and brown rice for sustained energy.</string>
+    <string name = "cottagecheese">A vegetarian muscle-building meal with tofu, mixed vegetables, and brown rice for sustained energy.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_height">Enter height(M)</string>
+    <string name="enter_current_weight">Enter current weight(KG)</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_number_of_pushups">Enter number of pushups</string>
+    <string name="enter_number_of_situps">Enter number of situps</string>
+    <string name="enter_km_ran">Enter km ran</string>
+    <string name="enter_number_of_squats">Enter number of squats</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="view_suggested_meal_plan"> suggested meal plan</string>
+    <string name="notify_me">Notify me</string>
+    <string name="current_medal">current Medal:</string>
+</resources>

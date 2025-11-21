@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#FFCBFF</color>
+    <color name="offwhite">#F8F0E3</color>
+    <color name = "sand">#C2b280</color>
+    <color name="Tan">#E6DBAC</color>
+    <color name="Beige">#EEDC9A</color>
+    <color name="Macaron">#F9E076</color>
+    <color name="Hazlewood">#C9BB8E</color>
+    <color name="Ecru">#e1bb80</color>
+    <color name="bistre">#352208</color>
+    <color name="burntsienna">#e07a5f</color>
+    <color name="eggshell">#f4f1de</color>
+    <color name="HunterGreen">#14281d</color>
+    <color name="love">#E8CBC0</color>
+    <color name="liberty">#636FA4</color>
+    <color name="red">#F2072B</color>
+
+</resources>
