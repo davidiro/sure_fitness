@@ -82,13 +82,13 @@ SureFitness follows a modular Android architecture:
 
 Code
 User
-↓
+->
 Android UI
-↓
+->
 Activities / Fragments
-↓
+->
 Firebase Authentication
-↓
+->
 Local Storage (SharedPreferences)
 🛠️ Technologies Used
 Programming
