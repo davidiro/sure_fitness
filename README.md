@@ -90,6 +90,8 @@ Activities / Fragments
 Firebase Authentication
 ->
 Local Storage (SharedPreferences)
+
+
 🛠️ Technologies Used
 Programming
 
