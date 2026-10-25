@@ -1,4 +1,4 @@
-SureFitness — Android Fitness Tracking Application
+SureFitness  Android Fitness Tracking Application
 
 SureFitness is a mobile fitness tracking application built for Android that helps users monitor their health, calculate BMI, set personalized fitness goals, receive reminders, and access curated meal recommendations.
 This project demonstrates core Android development concepts including Firebase Authentication, SharedPreferences data persistence, modular UI architecture, and user‑focused health tracking features.
